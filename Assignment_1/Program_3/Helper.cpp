@@ -1,0 +1,21 @@
+#include "Header.h"
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Parameters    : None
+// Return Value  : None
+// Description   : This function is used to display 5 to 1 on the screen
+// Author        : Swapnil Ramesh Adhav
+// Date          : 3 Nov 2020
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void Display()
+{
+    int iCount = 0;
+    for(iCount=5;iCount>=1;iCount--)
+    {
+        cout<<iCount<<"\t";
+    }
+    cout<<"\n";
+}
