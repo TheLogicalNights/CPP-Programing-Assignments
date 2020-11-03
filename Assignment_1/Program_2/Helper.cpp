@@ -1,0 +1,20 @@
+#include "Header.h"
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Parameters    : None
+// Return Value  : None
+// Description   : This function is used to display "Marvellous" 5 times on the screen
+// Author        : Swapnil Ramesh Adhav
+// Date          : 3 Nov 2020
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void Display()
+{
+    int iCount = 0;
+    for(iCount=0;iCount<5;iCount++)
+    {
+        cout<<"Marvellous\n";
+    }
+}
